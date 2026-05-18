@@ -1,0 +1,363 @@
+Prescription Issue:
+
+  formal:
+    - "I visited your pharmacy today and was informed that my prescription for {drug} could not be filled. I would appreciate a detailed explanation and guidance on how to resolve this matter promptly."
+    - "I am writing to report that my prescription for {drug} at {dose} was processed incorrectly — the quantity dispensed was {count} tablets rather than what my physician authorized."
+    - "My insurance has declined to cover {drug} and I would like assistance understanding why this has occurred and what steps can be taken to appeal or find an alternative."
+    - "I received a call indicating my prescription requires prior authorization. Could you please advise on the expected timeline and what I need to do on my end to expedite this?"
+    - "There appears to be a discrepancy between what my doctor prescribed and what was dispensed. I was prescribed {drug} at {dose} but received a different strength. I would like this corrected before I take any further doses."
+
+  anxious:
+    - "the pharmacy said my prescription for {drug} was rejected and I only have {count} pills left — I can't go without this medication, what do I do??"
+    - "I've been waiting {duration} for my {drug} prescription to be approved and I'm running out — I'm really stressed, is there any way to speed this up"
+    - "my prescription says {drug} but the label on the bottle says something different — did I get the wrong medication? I'm scared to take it"
+    - "insurance denied my {drug} and my doctor isn't responding and I don't know what to do — can the pharmacy help me at all or am I stuck"
+    - "I picked up my prescription and the dose looks wrong — I was on {dose} not {alt_dose} — is it safe to take what they gave me while I sort this out"
+
+  casual:
+    - "hey so the pharmacy couldn't fill my {drug} script — said something about prior auth? what does that even mean and how long does it take"
+    - "got a text saying my prescription is on hold — no idea why, it's just my regular {drug} refill I've been getting for {duration}"
+    - "think there's a mistake on my prescription — doc wrote {dose} but I've always taken {alt_dose}, which one is right"
+    - "my {drug} prescription ran out and my doctor is on vacation — can the pharmacist give me a few days supply to tide me over"
+    - "went to pick up {drug} and they said it's not in stock at {pharmacy} — how long until it's back and can I go somewhere else in the meantime"
+
+  urgent:
+    - "I HAVE ONE PILL LEFT and my {drug} prescription hasn't been approved yet — I cannot miss a dose of this medication please help me NOW"
+    - "pharmacy is closing in 30 minutes and my prescription for {drug} still hasn't gone through — what can I do right now to get my medication today"
+    - "just realized I was given someone else's medication — my bag has a different name on it — this is urgent what do I do with these pills"
+    - "took the wrong dose because the label said {alt_dose} not {dose} like my doctor said — I need to know immediately if this is dangerous"
+
+  fragmented:
+    - "{drug} prescription rejected — insurance why"
+    - "script for {drug} on hold {duration} — no reason given"
+    - "wrong dose dispensed. got {alt_dose} not {dose}"
+    - "prior auth {drug} — how long this take"
+    - "only {count} pills left. refill denied. help"
+    - "picked up {drug} label looks wrong — different name on bottle"
+    - "{pharmacy} out of stock {drug} — when back"
+    - "doctor sent script never showed up at pharmacy — {drug} urgent"
+    - "prescription expired pharmacy won't fill — {drug} daily medication can't stop"
+
+
+Drug Interaction Query:
+
+  formal:
+    - "I would like to inquire whether it is safe to take {drug} concurrently with {drug2}, as both have been prescribed by different specialists."
+    - "Could you please advise on any known interactions between {drug} and {drug2}? My cardiologist and GP have each prescribed one, and I want to ensure there is no conflict."
+    - "I am currently on {drug} and {drug2} and would appreciate a pharmacist's professional opinion on whether these two medications are contraindicated."
+    - "My physician recently added {drug} to my regimen. I have been on {drug2} and {drug3} for some time and would like to confirm there are no adverse interaction risks."
+
+  anxious:
+    - "I just read online that {drug} and {drug2} can cause a really dangerous reaction and now I'm terrified — is this true? Should I stop taking one?"
+    - "I accidentally took {drug} and {drug2} at the same time this morning and I'm panicking, is that going to be okay??"
+    - "my doctor gave me {drug} but I'm already on {drug2} and nobody mentioned anything about interactions and I'm really worried something bad could happen"
+    - "I looked up {drug} and it said do not take with {drug2} but that's exactly what I'm doing right now — should I go to the ER or is this fine??"
+    - "scared because I've been taking {drug} and {drug2} together for {duration} and just now found out they might interact. is there permanent damage possible"
+
+  casual:
+    - "hey quick question — is it cool to take {drug} and {drug2} at the same time or nah"
+    - "{drug} and alcohol safe? asking for tonight lol"
+    - "so my doc put me on {drug} but I already take {drug2} daily — anyone know if those mix okay"
+    - "can I throw {drug} in with my usual {drug2} and {drug3} or is that gonna cause issues"
+    - "started {drug} today already take {drug2} for my {symptom} — should be fine right"
+
+  urgent:
+    - "TOOK {drug} AND {drug2} TOGETHER AN HOUR AGO FEEL WEIRD PLEASE RESPOND ASAP"
+    - "need answer NOW — took {drug} with {drug2} and {drug3} by mistake, heart is racing, what do i do"
+    - "pharmacist please I need to know immediately if {drug} interacts with {drug2} I cannot reach my doctor"
+    - "just gave my mom her {drug} and then realized she already had {drug2} this morning — what do we do right now"
+
+  fragmented:
+    - "{drug} + {drug2} — safe??"
+    - "taking {drug} {drug2} together ok or not"
+    - "{drug} with grapefruit juice — heard bad things"
+    - "{drug2} blood thinner. started {drug}. problem?"
+    - "on {drug} {drug2} {drug3} — too many meds interaction worry"
+    - "{drug} dose {dose} plus {drug2} — chest tight since yesterday"
+    - "doc added {drug} forgot to mention already on {drug2} — no one checked"
+
+
+Prior Authorization / Insurance:
+
+  formal:
+    - "I have been informed that {drug} requires prior authorization from my insurance provider. Could you please advise on the steps involved and the anticipated timeframe for approval?"
+    - "My insurance carrier has denied coverage for {drug} citing medical necessity criteria. I would like to understand the appeals process and whether my pharmacist can assist in submitting supporting documentation."
+    - "I received an explanation of benefits indicating that {drug} at {dose} is not covered under my current plan. Could you clarify whether a formulary exception request is an option in this case?"
+    - "My prior authorization for {drug} has expired and I am due for a refill. I would appreciate guidance on whether this requires a new submission or simply a renewal of the existing approval."
+    - "I am disputing an insurance claim for {drug} that was incorrectly billed. The cost charged was {high_cost} when my copay should be significantly lower. I would like this reviewed and corrected."
+
+  anxious:
+    - "my insurance denied {drug} and my doctor said I really need it — I can't afford {high_cost} out of pocket, is there anything the pharmacy can do to help me"
+    - "the prior auth for {drug} has been pending for {duration} and I'm almost out of medication — I'm really worried, is there any way to get an emergency supply"
+    - "I got a letter saying my {drug} coverage was terminated and I don't understand why — I've been on this medication for {duration} and I can't just stop it"
+    - "insurance keeps going back and forth on covering {drug} and I'm so stressed — one month it's covered the next it isn't — how do I make this stop happening"
+    - "was told prior auth was approved then pharmacy said it wasn't — I don't know who to believe and I'm running out of {drug} please help"
+
+  casual:
+    - "so my insurance randomly decided not to cover {drug} anymore — been on it for {duration}, nothing changed — what's going on"
+    - "prior auth thing for {drug} is taking forever, any way to speed it up or get a few pills in the meantime"
+    - "got charged {high_cost} for {drug} this month when I usually pay like {low_cost} — did something change with my coverage"
+    - "doc submitted prior auth for {drug} like {duration} ago still nothing — is that normal or should someone be following up"
+    - "insurance denied {drug} said to try {cs_drug} first — can the pharmacist tell me if that's actually a reasonable substitute"
+
+  urgent:
+    - "PRIOR AUTH DENIED AGAIN for {drug} and I have {count} pills left — I cannot function without this medication please tell me what options I have RIGHT NOW"
+    - "insurance cut off my {drug} coverage with no warning and I take this every single day — what do I do today while I sort this out"
+    - "need emergency override for {drug} — prior auth expired yesterday and I missed my dose this morning, please help"
+    - "charged {high_cost} for {drug} at the counter, couldn't afford it, had to leave without it — I need this medication today, what are my options"
+
+  fragmented:
+    - "{drug} prior auth denied — appeal how"
+    - "insurance won't cover {drug} — need alternative {cs_drug}?"
+    - "PA pending {duration} still no answer — {drug} running out"
+    - "copay jumped {low_cost} to {high_cost} — why"
+    - "{drug} not on formulary — exception possible"
+    - "prior auth expired {drug} — renew or resubmit"
+    - "step therapy required {cs_drug} before {drug} — disagree"
+    - "insurance denied {drug} medical necessity — doctor disagrees"
+
+
+
+Refill Request:
+
+  formal:
+    - "I am writing to request a refill of my prescription for {drug} at {dose}. My current supply will be exhausted within {duration} and I would like to ensure continuity of treatment."
+    - "Could you please process a refill for {drug}? I have been stable on this medication for some time and my physician has authorized ongoing repeats."
+    - "I would like to arrange an early refill of {drug} as I will be traveling internationally for {duration} and require an adequate supply before my departure."
+    - "My automatic refill for {drug} does not appear to have been processed this month. Could you please investigate and arrange dispatch at your earliest convenience?"
+
+  anxious:
+    - "I only have {count} pills of {drug} left and I'm not sure if my refill is ready — I really can't miss a dose of this one, can someone check for me please"
+    - "the app says my {drug} refill isn't due for another week but I'm going to run out before then — is there any way to get it early I'm panicking a little"
+    - "my {drug} refill was supposed to be ready yesterday and it's still not showing — I'm scared I'll run out overnight, can someone look into this urgently"
+    - "I've tried calling {pharmacy} three times about my {drug} refill and no one is picking up — I don't know what else to do I really need this medication"
+
+  casual:
+    - "hey can I get a refill on {drug} — running low and just want to make sure it's ready before the weekend"
+    - "need to reorder {drug} — same dose {dose} as always, nothing has changed"
+    - "my {drug} refill reminder came through — can you go ahead and process that for me"
+    - "been on {drug} for {duration} now — can I just get an automatic refill set up so I don't have to keep requesting manually"
+    - "nearly out of {drug} and {drug2} — can I request both refills at the same time"
+
+  urgent:
+    - "I HAVE ZERO PILLS LEFT of {drug} — refill request was sent {duration} ago and still nothing, I need this TODAY"
+    - "ran out of {drug} this morning missed my dose already — can an emergency refill be done without waiting for the doctor to respond"
+    - "traveling tomorrow and just realized I don't have enough {drug} to last the trip — is there any way to get an urgent refill processed today"
+    - "pharmacy was closed when I went to pick up my {drug} refill and now I'm out — what do I do right now"
+
+  fragmented:
+    - "{drug} refill please — same as last time"
+    - "need {drug} and {drug2} refilled asap"
+    - "running low {drug} {count} pills left"
+    - "refill {drug} {dose} — traveling {duration}"
+    - "auto refill didn't process {drug} — why"
+    - "out of {drug} since yesterday — urgent"
+    - "doctor approved repeats {drug} — just need pharmacy to fill"
+
+
+
+General Inquiry:
+
+  formal:
+    - "I would like to inquire about the operating hours of {pharmacy} and whether I am able to collect prescriptions outside of standard business hours."
+    - "Could you please advise on the process for transferring my prescription records from my previous pharmacy to {pharmacy}? I have recently relocated and would like to consolidate my medications."
+    - "I am inquiring about the availability of a pharmacist consultation service, either in person or via telephone, regarding my current medication regimen."
+    - "I would like to understand the pharmacy's policy on medication storage and whether temperature-sensitive items such as {drug} can be safely held for collection over several days."
+    - "Could you confirm whether {pharmacy} participates in the national medication review program and whether I am eligible to schedule an appointment?"
+
+  anxious:
+    - "I'm not sure if I'm taking {drug} correctly — no one really explained it to me and I've been too nervous to ask — can a pharmacist go through it with me"
+    - "I found an old bottle of {drug} at home and I don't know if it's still safe to take — the expiry date is hard to read and I don't want to risk it"
+    - "I've been getting conflicting information about {drug} from different sources and I just want someone qualified to explain it clearly — I don't know who to trust"
+    - "is it safe to cut {drug} tablets in half — I've been doing it to make them last longer because I can't always afford the full supply and now I'm worried I shouldn't have been"
+
+  casual:
+    - "hey does {pharmacy} do blister packs for people who take a lot of meds — asking for my nan"
+    - "can I get a printout of all the medications I've been prescribed this year — need it for my GP appointment"
+    - "do you guys stock {drug} or do I need to order it in — don't want to make the trip for nothing"
+    - "how do I dispose of old medications properly — got a whole bag of expired stuff at home"
+    - "what's the difference between the brand version of {drug} and the generic — is one actually better"
+
+  urgent:
+    - "medication got left in a hot car for {duration} — is {drug} still safe to take or is it ruined, need to know now"
+    - "I accidentally gave my child double the dose of {drug} — should I take them to emergency or is it okay please respond fast"
+    - "dropped my {drug} in water — entire {duration} supply — is there any way to get an emergency replacement today"
+    - "traveling in {duration} hours and just realized I forgot to pack {drug} — is there any way to get a supply sorted before I leave"
+
+  fragmented:
+    - "{pharmacy} open Sundays?"
+    - "how store {drug} — fridge or room temp"
+    - "transfer prescription to {pharmacy} — how"
+    - "generic vs brand {drug} — same thing?"
+    - "expired {drug} — still okay to take"
+    - "pharmacist consult — how to book"
+    - "blister pack service available at {pharmacy}?"
+    - "missed {count} doses {drug} — what now"
+    - "pill looks different this refill — same {drug}?"
+
+
+Side Effect / Adverse Drug Reaction:
+
+  formal:
+    - "I have been experiencing {symptom} since commencing {drug} approximately {duration} ago and would like to know whether this is a documented side effect or warrants discontinuation."
+    - "I wish to report that since being prescribed {drug} at {dose}, I have developed {symptom} and {symptom} which are significantly affecting my quality of life."
+    - "Could you please advise whether {symptom} is a known adverse reaction to {drug}? My prescribing physician is unavailable and I would like a professional opinion before my next dose."
+    - "I have been on {drug} for {duration} and have recently noticed {symptom}. I would appreciate guidance on whether I should continue, reduce the dose, or seek medical attention."
+
+  anxious:
+    - "I started {drug} three days ago and now I have {symptom} and I don't know if this is normal or something really serious — I'm freaking out a little"
+    - "is {symptom} a side effect of {drug} because I've had it for {duration} and it won't go away and I'm scared it's something worse than a side effect"
+    - "my hands won't stop shaking since I started {drug} — could this be the medication or should I go to the hospital right now"
+    - "I read that {drug} can cause liver damage and now I have {symptom} — I'm terrified, does this mean my liver is being affected??"
+    - "took my first dose of {drug} at {dose} and within an hour had {symptom} — is this an allergic reaction or just the body adjusting because I genuinely cannot tell"
+
+  casual:
+    - "so I've been on {drug} for like {duration} and I keep getting {symptom} — is that just a normal thing with this med"
+    - "ngl {drug} is messing with my stomach bad. anyone else get {symptom} from it or is it just me"
+    - "been super dizzy since starting {drug} — is that expected or should I be worried"
+    - "my sleep has been terrible since I started {drug} like {duration} ago — could the meds be causing this"
+    - "doc put me on {drug} and now I'm getting {symptom} every morning — is this one of those side effects that goes away on its own"
+
+  urgent:
+    - "I NEED HELP — took {drug} and now I have {symptom} and my face feels like it's swelling please tell me what to do NOW"
+    - "severe {symptom} after taking {drug} {duration} ago — is this an emergency or can I wait to call my doctor in the morning"
+    - "can barely breathe since taking {drug} dose {dose} an hour ago — is this serious should I call 911"
+    - "rash spreading fast started after {drug} this morning — how do I know if this is dangerous please respond quickly"
+
+  fragmented:
+    - "{drug} causing {symptom}? started same time"
+    - "on {drug} {duration}. now {symptom}. normal?"
+    - "{symptom} since {drug}. getting worse not better"
+    - "nausea vomiting {drug} {dose} — can't keep food down"
+    - "{drug} side effects {symptom} and {symptom} — too much"
+    - "took {drug} now heart racing {duration} — side effect or emergency"
+    - "hair falling out since {drug} — is this reversible or permanent"
+    - "{drug} making me feel worse than the condition it's treating — is this normal at first"
+
+
+Medication Counseling:
+
+  formal:
+    - "I would appreciate a pharmacist's guidance on the correct administration of {drug} at {dose}, as the instructions provided with my prescription were not entirely clear to me."
+    - "I am unsure whether {drug} should be taken with food or on an empty stomach and would like professional clarification before commencing my course."
+    - "Could you please advise on the appropriate storage conditions for {drug}? I want to ensure the medication retains its efficacy throughout my treatment."
+    - "I have been prescribed {drug} for {duration} and would like to understand what I should expect in terms of onset of effect, as I have not noticed any improvement thus far."
+    - "I would like to discuss potential lifestyle modifications I should be aware of while taking {drug}, including dietary restrictions and physical activity considerations."
+
+  anxious:
+    - "I was just given {drug} and the leaflet inside has so many warnings I don't know if I should even take it — can someone please explain what I actually need to worry about"
+    - "my doctor said take {drug} twice a day but didn't say how many hours apart — I've been guessing and now I'm worried I've been doing it wrong this whole time"
+    - "I missed {count} doses of {drug} by accident — I don't know if I should double up or just continue normally and I'm scared I've undone all my progress"
+    - "been on {drug} for {duration} and still feel no different — is this normal or does it mean the medication isn't working for me specifically"
+    - "the pharmacist last time said something about not eating grapefruit with {drug} and now I'm scared because I've been eating it almost every day — how bad is this"
+
+  casual:
+    - "quick question — do I take {drug} with water only or can I take it with juice or coffee"
+    - "can I drink alcohol while on {drug} or is that a hard no — just want a straight answer"
+    - "forgot whether {drug} goes in the fridge or the cabinet — can never remember"
+    - "been on {drug} for a week and feel kinda off — is that normal when you first start or should I be concerned"
+    - "my prescription says take {drug} as needed — how do I know when I actually need it vs just waiting it out"
+    - "can I split the {drug} tablet or does it have to be swallowed whole — it's really hard to get down"
+
+  urgent:
+    - "I took {dose} of {drug} instead of {alt_dose} by mistake — is this dangerous and what should I do RIGHT NOW"
+    - "gave my elderly mother {drug} and {drug2} at the same time without realizing — she's feeling {symptom} — is this an emergency"
+    - "child got into {drug} and may have swallowed some — how much is dangerous for a small child I need to know immediately"
+    - "took {drug} on an empty stomach and now have severe {symptom} — should I go to emergency or is this expected"
+
+  fragmented:
+    - "{drug} with food or without"
+    - "missed dose {drug} — take now or skip"
+    - "{drug} in fridge or room temp"
+    - "how long {drug} take to work"
+    - "cut {drug} tablet in half — okay"
+    - "{drug} and caffeine — problem"
+    - "took double dose {drug} by accident — {dose} instead of {alt_dose}"
+    - "{drug} expiry passed {duration} ago — still safe"
+    - "stopped {drug} suddenly — is that dangerous"
+    - "{drug} not dissolving properly — normal"
+
+
+
+Billing & Copay:
+
+  formal:
+    - "I was charged {high_cost} for {drug} at my last visit, which is inconsistent with my usual copay of {low_cost}. I would like a full billing review and a correction if an error has occurred."
+    - "Could you please provide an itemized receipt for my recent prescription purchases? I require this documentation for a medical expense reimbursement claim."
+    - "I believe I have been incorrectly billed for {drug} as a brand medication when a generic equivalent was dispensed. I would like this reviewed and any overcharge refunded."
+    - "I would like to enquire about available patient assistance programs or discount schemes for {drug}, as the current cost of {high_cost} per month is not sustainable for me financially."
+    - "My flexible spending account provider requires detailed prescription receipts for {drug} and {drug2}. Could you please arrange for these to be issued at your earliest convenience?"
+
+  anxious:
+    - "I got charged {high_cost} for {drug} this month and last month it was {low_cost} — nothing changed with my insurance so I don't understand and I'm really stressed about this"
+    - "I can't afford {high_cost} for {drug} every month — I'm scared I'm going to have to stop taking it — is there any kind of help available for people in my situation"
+    - "the pharmacy ran my card twice for my {drug} prescription — I don't have the money to cover a double charge right now, this is really upsetting"
+    - "my insurance said they covered {drug} but I still got billed {high_cost} out of pocket — I don't know who made the mistake and I'm worried I'll never get it sorted"
+    - "was told at the counter my {drug} would be {low_cost} and then got home and saw I was charged {high_cost} — I feel like I was misled and don't know what to do"
+
+  casual:
+    - "hey got charged way more than usual for {drug} this month — {high_cost} instead of my normal {low_cost} copay — can someone look into that"
+    - "is there a cheaper version of {drug} available — {high_cost} a month is honestly too much for me right now"
+    - "do you guys price match or have any discount cards that work on {drug}"
+    - "got billed for {drug} twice I think — can someone check my account and confirm"
+    - "my GoodRx coupon didn't go through for {drug} — ended up paying {high_cost} — can that be reversed"
+    - "do you have a generic for {drug} — trying to bring my monthly costs down from {high_cost}"
+
+  urgent:
+    - "I was charged {high_cost} for {drug} and my account is now overdrawn — I need this reversed or corrected TODAY"
+    - "can't pay {high_cost} for {drug} right now and I need it today — is there any emergency financial assistance or payment plan available immediately"
+    - "receipt for {drug} shows {high_cost} but I was quoted {low_cost} at the counter — I need this fixed before end of day please"
+    - "insurance lapsed unexpectedly and I just got hit with a {high_cost} bill for {drug} — I take this daily and can't afford this, what are my options right now"
+
+  fragmented:
+    - "charged {high_cost} for {drug} — should be {low_cost}"
+    - "generic {drug} available — how much"
+    - "billed twice for {drug} — refund?"
+    - "copay assistance {drug} — how apply"
+    - "GoodRx not working at {pharmacy} — {drug}"
+    - "FSA receipt needed {drug} and {drug2}"
+    - "price difference {drug} brand vs generic"
+    - "insurance didn't apply {drug} — billed {high_cost} full price"
+
+
+
+Controlled Substance:
+
+  formal:
+    - "I am due for a refill of my {cs_drug} prescription and would like to confirm the earliest date on which this can legally be dispensed, as I understand there are regulatory restrictions on early fills."
+    - "My prescription for {cs_drug} was lost in transit and I am requesting guidance on the procedure for obtaining a replacement, as I understand this requires specific documentation."
+    - "I am relocating to another state and would like to understand how to transfer my ongoing {cs_drug} prescription, given the controlled substance regulations that may differ by jurisdiction."
+    - "Could you please advise on the quantity of {cs_drug} I am permitted to collect at one time and whether a partial fill is permissible given my current circumstances?"
+    - "I have recently been prescribed {cs_drug} and would appreciate counseling on safe storage requirements, particularly given that there are children in my household."
+
+  anxious:
+    - "I lost my {cs_drug} prescription and I'm really scared — I only have {count} pills left and I don't know if my doctor will believe me or if I'll be treated like I'm lying"
+    - "my {cs_drug} was stolen from my bag and I don't know what to do — I'm worried the pharmacy will think I'm making it up and I genuinely need this medication"
+    - "I accidentally took an extra {cs_drug} yesterday and now I'm scared about running out before my refill date — will the pharmacy be able to help or will I just have to go without"
+    - "I've been on {cs_drug} for {duration} and my doctor wants to taper me off but I'm terrified of the withdrawal — can a pharmacist help me understand what to expect"
+    - "pharmacy said my {cs_drug} is too early to refill by {count} days — I'm going to run out before then and I don't know what to do I'm really anxious about this"
+
+  casual:
+    - "when can I refill my {cs_drug} — always forget the exact cutoff date and don't want to make a wasted trip"
+    - "do I need to bring the physical paper prescription every time for {cs_drug} or can it be sent electronically now"
+    - "my doctor switched me from {cs_drug} to {drug} — do I need to do anything special to get the new one filled"
+    - "can I pick up my {cs_drug} a couple days early — going out of town and don't want to run out while I'm away"
+    - "they only gave me half my {cs_drug} last time said they'd fill the rest later — when can I come back for the other half"
+
+  urgent:
+    - "I NEED MY {cs_drug} TODAY — prescription is technically due tomorrow but I'll be out of town — is there any exception that can be made please"
+    - "my {cs_drug} bottle was damaged in a flood and I have almost none left — I need emergency guidance on what to do right now"
+    - "doctor called in {cs_drug} but pharmacy says they're out of stock — I cannot stop this medication abruptly, what do I do today"
+    - "traveling internationally in {duration} and just realized I need documentation to carry {cs_drug} across borders — what do I need and how fast can I get it"
+
+  fragmented:
+    - "{cs_drug} refill — too early by {count} days"
+    - "lost {cs_drug} prescription — replacement possible"
+    - "{cs_drug} stolen — what do I do"
+    - "can I fill {cs_drug} early — traveling"
+    - "partial fill {cs_drug} — rest later?"
+    - "electronic script okay for {cs_drug} or need paper"
+    - "{cs_drug} stock — {pharmacy} have it"
+    - "switching from {cs_drug} to {drug} — process"
+    - "traveling with {cs_drug} internationally — need letter"
+    - "{cs_drug} storage — kids in house"

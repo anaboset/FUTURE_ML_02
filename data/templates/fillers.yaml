@@ -1,0 +1,28 @@
+drugs: ["metformin", "lisinopril", "atorvastatin", "amlodipine", 
+    "omeprazole", "levothyroxine", "albuterol", "sertraline", 
+    "fluoxetine", "escitalopram", "metoprolol", "losartan", 
+    "gabapentin", "amoxicillin", "azithromycin", "prednisone",
+    "montelukast", "cetirizine", "pantoprazole", "hydrochlorothiazide"]
+
+controlled_substances: ["oxycodone", "hydrocodone", "alprazolam", 
+    "lorazepam", "clonazepam", "Adderall", "Ritalin", "tramadol", 
+    "zolpidem", "codeine"]
+
+doses: ["5mg", "10mg", "20mg", "25mg", "50mg", "100mg", 
+    "500mg", "1000mg", "0.5mg", "2.5mg", "40mg", "80mg"]
+
+alt_doses: ["10mg", "20mg", "50mg", "25mg", "500mg", 
+    "200mg", "400mg"]
+
+pharmacies: ["CVS", "Walgreens", "Rite Aid", 
+    "your pharmacy", "the local branch"]
+
+durations: ["2 days", "1 week", "2 weeks", "a month", 
+    "3 weeks", "5 days"]
+
+symptoms: ["nausea", "dizziness", "headaches", "fatigue", 
+    "stomach pain", "dry mouth", "insomnia", "joint pain", 
+    "muscle weakness", "confusion"]
+counts: ["5", "10", "15", "3", "7", "2"]
+low_costs: ["10", "15", "20", "5", "25"]
+high_costs: ["80", "120", "250", "350", "500", "45", "90"]

@@ -1,0 +1,16 @@
+# Ignore virtual environments, compiled files, and data
+.venv
+venv
+__pycache__
+*.pyc
+*.pyo
+
+# Ignore data files (except templates)
+data/raw/*
+data/processed/*
+
+# Ignore model checkpoints and logs
+checkpoints/*
+logs/*
+reports/*
+
