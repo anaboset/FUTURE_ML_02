@@ -9,9 +9,9 @@
 
 ---
 
-## 🔗 Live Demo
+## 🔗 [Live](https://pharmatriage.streamlit.app/)
 
-**[▶ Try it on Streamlit](https://your-app.streamlit.app)**
+**[▶ Try it on Streamlit](https://pharmatriage.streamlit.app/)**
 
 ---
 
