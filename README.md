@@ -15,7 +15,8 @@
 
 ---
 
-![alt text](image.png)
+![pharmatriage](202605191006.gif)
+
 
 ---
 ## Overview
