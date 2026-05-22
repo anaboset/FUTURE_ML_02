@@ -121,7 +121,7 @@ This mirrors real clinical decision support system design where safety-critical 
 ## 🗂 Project Structure
 
 ```
-pharmacy-triage/
+PharmaTriage/
 │
 ├── src/
 │   ├── taxonomy.py          # Clinical brain: categories, priority signals, routing
@@ -156,8 +156,8 @@ pharmacy-triage/
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/anaboset/FUTURE_ML_02
-cd FUTURE_ML_02
+git clone https://github.com/anaboset/PharmaTriage
+cd PharmaTriage
 ```
 ### Install Dependencies
 ```bash
@@ -191,5 +191,4 @@ Current system is English-only
 - This project is intended for educational and portfolio purposes, not clinical deployment
 
 ---
-
-*Built as part of a ML internship portfolio project.*
+*Built by AI/ML trainee & Pharmacy Student*
