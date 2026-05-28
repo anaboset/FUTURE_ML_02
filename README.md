@@ -15,7 +15,7 @@
 
 ---
 
-<img src="202605191006.gif" style="display: block; margin: 0 auto; width: 600px;">
+![pharmatriage preview](pharmatriage.gif)
 
 
 ---
