@@ -121,7 +121,7 @@ This mirrors real clinical decision support system design where safety-critical 
 ## 🗂 Project Structure
 
 ```
-PharmaTriage/
+FUTURE_ML_02/
 │
 ├── src/
 │   ├── taxonomy.py          # Clinical brain: categories, priority signals, routing
@@ -156,8 +156,8 @@ PharmaTriage/
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/anaboset/PharmaTriage
-cd PharmaTriage
+git clone https://github.com/anaboset/FUTURE_ML_02
+cd FUTURE_ML_02
 ```
 ### Install Dependencies
 ```bash
